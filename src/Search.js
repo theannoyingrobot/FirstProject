@@ -20,7 +20,6 @@ class Search extends Component {
     e.preventDefault();
     this.props.search(this.state);
     this.setState({ query: '' });
-    console.log("search completed");
   }
 
   render() {
